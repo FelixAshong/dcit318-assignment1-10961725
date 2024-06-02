@@ -1,0 +1,77 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.psess
+
+# Rider
+.idea/
+*.sln.iml
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Rider specific
+.idea/
+.idea_modules/
+.idea_modules.xml
+
+# VS Code directories
+.vscode/
+.history/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Other
+*.log
+*.tlog
+*.vsidx
+*.swp
+*.bak
+*.ncb
+*.sdf
+*.opensdf
+*.opendb
+*.VC.db
+*.VC.opendb
+*.orig
+*.csproj.user
+*.cache/
+*.vscode/

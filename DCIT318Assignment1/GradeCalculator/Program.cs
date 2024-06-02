@@ -10,6 +10,7 @@ namespace GradeCalculator
             string? input = Console.ReadLine();
 
             if (input != null && int.TryParse(input, out int grade))
+
             {
                 string letterGrade = grade switch
                 {
@@ -21,6 +22,7 @@ namespace GradeCalculator
                 };
 
                 Console.WriteLine($"The letter grade is: {letterGrade}");
+
             }
             else
             {

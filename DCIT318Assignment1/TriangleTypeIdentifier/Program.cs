@@ -30,9 +30,11 @@ namespace TriangleTypeIdentifier
                 {
                     Console.WriteLine("The triangle is Scalene.");
                 }
+
             }
             else
             {
+
                 Console.WriteLine("Invalid input. Please enter valid numerical values for the sides of the triangle.");
             }
         }

@@ -13,9 +13,11 @@ namespace TicketPriceCalculator
             {
                 int ticketPrice = (age <= 12 || age >= 65) ? 7 : 10;
                 Console.WriteLine($"The ticket price is: GHC{ticketPrice}");
+
             }
             else
             {
+
                 Console.WriteLine("Invalid input. Please enter a valid age.");
             }
         }
